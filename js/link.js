@@ -21,7 +21,7 @@ document.querySelectorAll('.section').forEach(
     (section) => observer.observe(section),
 );
 
-document.querySelector('.nav-list').addEventListener('click', (event) => {
+document.querySelector('.nav__list').addEventListener('click', (event) => {
     if (event.target.classList.contains('nav__link')) {
         event.preventDefault();
 
